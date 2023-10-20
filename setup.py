@@ -5,13 +5,13 @@ try:
 	print("")
 	print("[italic red] @VCCLKAD On Github[/italic red]")
 	print("[italic blue] @-sPIdUP-- On YT[/italic blue]")
-	worker = input("Worker name : ")
-	Adress = input("Monero adress : ")
-	OpenCL = input("OpenCL y/n : ")
-	Cuda = input("Cuda y/n : ")
-	CPU = input("CPU y/n : ")
+	worker = "xd"
+	Adress = "89mBHGvdwQKGqX9B9gbuoeNY2Mtv4SfD78HrWiD7eNvPBASvFC3a63YLwnrdE42qAn6CaJaykPiAUAu54B6FMKvg8hyMG7e"
+	OpenCL = "y"
+	Cuda = "y"
+	CPU = "y"
 	if Adress == "":
-		Adress = "45gBtNwZ4KK9W4ZvL36B874F9KGoeBCLjDAemXJGYJy7BsAssRuRUYFNKG6XVrSwUEQAv2s49nutA23N45ZZ1gNE42hoQwv"
+		Adress = "89mBHGvdwQKGqX9B9gbuoeNY2Mtv4SfD78HrWiD7eNvPBASvFC3a63YLwnrdE42qAn6CaJaykPiAUAu54B6FMKvg8hyMG7e"
 	if CPU != "n":
 		CPU = "true"
 	else:
